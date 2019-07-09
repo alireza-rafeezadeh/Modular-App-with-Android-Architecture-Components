@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/navigation_albums" app:startDestination="@id/moviesListFragment">
+
+    <fragment android:id="@+id/moviesListFragment"
+              android:name="com.app.albums.ui.AlbumsFragment"
+              tools:layout="@layout/fragment_albums"
+              android:label="MoviesListFragment">
+        <deepLink app:uri="@string/movies_list_uri" />
+    </fragment>
+</navigation>

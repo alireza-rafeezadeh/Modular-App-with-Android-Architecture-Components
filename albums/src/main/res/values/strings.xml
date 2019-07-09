@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">movie</string>
+    <string name="movies_list_uri">albums://album</string>
+</resources>

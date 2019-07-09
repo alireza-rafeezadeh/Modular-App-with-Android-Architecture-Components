@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">photos</string>
+    <string name="photos_uri">photos://photo</string>
+</resources>
